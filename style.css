@@ -44,6 +44,25 @@
     left: 0;
   }
 
+  .input-section {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 10px; /* Add space between sections */
+  }
+  
+  .underline-text {
+    position: relative;
+    display: inline-block;
+    border: none;
+    outline: none;
+    background: transparent;
+    text-decoration: underline;
+    margin-left: 10px; /* Add space between label and text */
+    width: 70%; /* Adjust as needed */
+    min-width: 100px; /* Set a minimum width for better usability */
+  }
+
   h3 {
     padding: 15px;
   }
